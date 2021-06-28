@@ -15,7 +15,7 @@ public class App
         String movie = myObj.nextLine();
 
 
-        Connection conn = new Connection("spiderman");
+        Connection conn = new Connection(movie);
         conn.obtain_titles();
 
 
